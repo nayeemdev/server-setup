@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sh ./bootstrap.sh
+sh ./update.sh
 
 echo "Installing mysql Server..."
 

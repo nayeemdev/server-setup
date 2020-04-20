@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sh ./bootstrap.sh
+sh ./update.sh
 
 echo "Installing Apache2 Server"
 sudo apt-get install apache2
