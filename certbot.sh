@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
 echo "Adding ppa for certbot(Let's Encrypt)..."
-sudo add-apt-repository -y ppa:certbot/certbot
-sudo apt-get update -y
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
 
 echo "Installing certbot..."
-sudo apt-get install -y certbot
+sudo apt-get install certbot python-certbot-apache
 
-sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
+echo "**********   Certbot Installed Successfully!   **********"
