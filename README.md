@@ -28,3 +28,11 @@ And to Run your Script
 ```sh
 ./{scriptname}.sh
 ```
+
+## Example 
+```sh
+sudo chmod +x php.sh
+```
+```sh
+./php.sh
+```
