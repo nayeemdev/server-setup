@@ -20,6 +20,7 @@ sudo apt-get install -y php${php_version}-mysql php${php_version}-dev php${php_v
 echo "$(php -v)"
 
 echo "Installing Composer..."
+sudo apt-get install curl
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 composer
