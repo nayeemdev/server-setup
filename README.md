@@ -8,6 +8,9 @@ For Seting Up You Apache Server for PHP Project
     <p>For Updating required Packages and Dependencies</p>
   * apache2.sh
     <p>For installing apache2 Server</p>
+  * nginx.sh
+    <p>For installing nginx Server</p>
+> **_NOTE:_** You should use only apache or only nginx not both. 
   * php.sh
     <p>For Installing PHP and Composer</p>
   * mysql.sh
@@ -20,9 +23,9 @@ For Seting Up You Apache Server for PHP Project
     
 ## Installation Process
 First need to permission for run these file.
-Give execute permission to a script:
+Give execute permission to all script:
 ```sh
-sudo chmod +x {scriptname}.sh
+sudo chmod +x ./*
 ```
 And to Run your Script
 ```sh
@@ -30,9 +33,6 @@ And to Run your Script
 ```
 
 ## Example 
-```sh
-sudo chmod +x php.sh
-```
 ```sh
 ./php.sh
 ```
