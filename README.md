@@ -15,6 +15,8 @@ For Seting Up You Apache Server for PHP Project
     <p>For Installing PHP and Composer</p>
   * mysql.sh
     <p>For Installing mySQL and PHPMyAdmin</p>
+  * node.sh
+    <p>For Installing nodejs and npm</p>
   * certbot.sh
     <p>For installing certbot for domain ssl</p>
   * ssl.sh
@@ -29,13 +31,10 @@ sudo chmod +x ./*
 ```
 And to Run your Script
 ```sh
-./{scriptname}.sh
+sudo ./{scriptname}.sh
 ```
 
 ## Example 
 ```sh
-./php.sh
+sudo ./php.sh
 ```
-
-## TODO
-- [ ] Add Node And NPM/YARN
