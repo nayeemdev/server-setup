@@ -1,4 +1,4 @@
-# Apache-Server-Automation
+# Web Server Setup 
 
 ## About
 For Seting Up You Apache Server for PHP Project
